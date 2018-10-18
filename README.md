@@ -4,13 +4,19 @@
 
 ## eureka模块
 
-Eureka服务启动，可直接启动target中的jar包，路径：
+Eureka服务启动（向Eureka2注册），可直接启动target中的jar包，路径：
 
 > http://localhost:8761
 
+## eureka2模块
+
+Eureka2服务启动（向Eureka注册），可直接启动target中的jar包，路径：
+
+> http://localhost:8762
+
 ## client模块
 
-Eureka客户端模块
+Eureka客户端模块向两个Eureka注册
 
 ## 下载地址
 
