@@ -11,7 +11,7 @@ create table `product_category` (
 );
 INSERT INTO `product_category` (`category_id`, `category_name`, `category_type`, `create_time`, `update_time`)
 VALUES
-	(1,'热榜',11,'2017-03-28 16:40:22','2017-11-26 23:39:36'),
+	(1,'热榜',1,'2017-03-28 16:40:22','2017-11-26 23:39:36'),
 	(2,'好吃的',22,'2017-03-14 17:38:46','2017-11-26 23:39:40');
 
 -- 商品

@@ -31,6 +31,8 @@ Eureka客户端模块向两个Eureka注册
 
 商品服务功能，注意配置数据库
 
+> swagger地址：http://localhost:9082/swagger-ui.html
+
 ### 下载地址
 
 下载地址：https://github.com/UncleCatMySelf/Cloud2Sell/releases
