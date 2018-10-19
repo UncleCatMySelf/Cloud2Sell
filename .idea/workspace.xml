@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5054e3f-2c2a-4ad2-8c58-be045afe3e15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/dataobject/ProductCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/enums/ProductStatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/repository/ProductCategoryRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/repository/ProductInfoRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/service/CategoryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/service/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/service/impl/CategoryServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/service/impl/ProductServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/utils/ResultVOUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/vo/ProductInfoVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/vo/ProductVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/vo/ResultVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/test/java/com/myself/repository/ProductCategoryRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/test/java/com/myself/repository/ProductInfoRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/test/java/com/myself/service/CategoryServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/test/java/com/myself/service/ProductServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/sql.md" afterPath="$PROJECT_DIR$/doc/sql.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/pom.xml" afterPath="$PROJECT_DIR$/product/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/myself/ProductApplication.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/ProductApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/myself/controller/ProductController.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/controller/ProductController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/doc/sql.md" afterPath="$PROJECT_DIR$/doc/sell.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,34 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/sql.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,8 +29,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitgnore" />
         <option value="$PROJECT_DIR$/doc/sql.sql" />
-        <option value="$PROJECT_DIR$/doc/sql.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/sql.md" />
       </list>
     </option>
   </component>
@@ -120,20 +73,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,16 +503,15 @@
       <updated>1539825130063</updated>
       <workItem from="1539825132252" duration="3562000" />
       <workItem from="1539929300993" duration="1783000" />
-      <workItem from="1539931575157" duration="1005000" />
+      <workItem from="1539931575157" duration="1915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6350000" />
+    <option name="totallyTimeSpent" value="7260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -586,7 +524,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -649,22 +587,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/sql.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/doc/sell.sql">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <first_editor relative-caret-position="1161">
+            <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
