@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5054e3f-2c2a-4ad2-8c58-be045afe3e15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order/src/main/java/com/myself/client/ProductClient.java" afterPath="$PROJECT_DIR$/order/src/main/java/com/myself/client/ProductClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order/src/main/java/com/myself/controller/ClientController.java" afterPath="$PROJECT_DIR$/order/src/main/java/com/myself/controller/ClientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/myself/controller/ProductController.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/controller/ProductController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/myself/service/ProductService.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/service/ProductService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/myself/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/myself/service/impl/ProductServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/test/java/com/myself/service/ProductServiceTest.java" afterPath="$PROJECT_DIR$/product/src/test/java/com/myself/service/ProductServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order/src/main/java/com/myself/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/order/src/main/java/com/myself/service/impl/OrderServiceImpl.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -540,12 +535,12 @@
       <workItem from="1540345591414" duration="612000" />
       <workItem from="1540360149223" duration="325000" />
       <workItem from="1540361162767" duration="1983000" />
-      <workItem from="1540429187824" duration="8490000" />
+      <workItem from="1540429187824" duration="9117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18913000" />
+    <option name="totallyTimeSpent" value="19540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
