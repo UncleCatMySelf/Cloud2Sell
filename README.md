@@ -33,6 +33,12 @@ Eureka客户端模块向两个Eureka注册
 
 > swagger地址：http://localhost:9082/swagger-ui.html
 
+> 多模块
+
+* product-server _ 所有业务逻辑
+* product-client _ 对外暴露的接口
+* product-common _ 公用的对象
+
 ### order模块
 
 订单功能
