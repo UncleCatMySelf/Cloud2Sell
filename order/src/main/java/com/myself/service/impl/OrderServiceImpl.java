@@ -30,6 +30,7 @@ public class OrderServiceImpl implements OrderService {
     public OrderDTO create(OrderDTO orderDTO) {
 
 //      TODO 2、查询商品信息（调用商品服务）
+
 //      TODO 3、计算总价
 //      TODO 4、扣库存（调用商品服务）
 //       5、订单入库
