@@ -2,6 +2,7 @@ package com.myself.controller;
 
 import com.myself.dataobject.ProductCategory;
 import com.myself.dataobject.ProductInfo;
+import com.myself.dto.CartDTO;
 import com.myself.service.CategoryService;
 import com.myself.service.ProductService;
 import com.myself.utils.ResultVOUtil;
@@ -75,6 +76,12 @@ public class ProductController {
     @PostMapping("/listForOrder")
     public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList){
         return productService.findList(productIdList);
+    }
+
+
+    @PostMapping("/decreaseStock")
+    public void decreaseStock(@RequestBody List<CartDTO> cartDTOList){
+        productService.decreaseStock(cartDTOList);
     }
 
 }

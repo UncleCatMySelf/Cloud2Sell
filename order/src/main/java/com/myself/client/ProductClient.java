@@ -1,6 +1,7 @@
 package com.myself.client;
 
 import com.myself.dataobject.ProductInfo;
+import com.myself.dto.CartDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,5 +22,8 @@ public interface ProductClient {
 
     @PostMapping("/product/listForOrder")
     List<ProductInfo> ListForOrder(@RequestBody List<String> productIdList);
+
+    @PostMapping("/product/decreaseStock")
+    void decreaseStock(@RequestBody List<CartDTO> cartDTOList);
 
 }

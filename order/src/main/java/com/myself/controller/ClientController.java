@@ -2,6 +2,7 @@ package com.myself.controller;
 
 import com.myself.client.ProductClient;
 import com.myself.dataobject.ProductInfo;
+import com.myself.dto.CartDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -37,4 +38,9 @@ public class ClientController {
         return "Okay";
     }
 
+    @GetMapping("/productDecreaseStock")
+    public String productDecreaseStock(){
+        productClient.decreaseStock(Arrays.asList(new CartDTO("164103465734242707",3)));
+        return "Okay";
+    }
 }

@@ -2,6 +2,7 @@ package com.myself.service;
 
 import com.myself.ProductApplicationTests;
 import com.myself.dataobject.ProductInfo;
+import com.myself.dto.CartDTO;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,4 +36,9 @@ public class ProductServiceTest extends ProductApplicationTests {
         Assert.assertTrue(list.size() > 0);
     }
 
+    @Test
+    public void decreaseStock() throws Exception {
+        CartDTO cartDTO = new CartDTO("157875196366160022",2);
+        productService.decreaseStock(Arrays.asList(cartDTO));
+    }
 }

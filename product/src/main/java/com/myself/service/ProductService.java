@@ -1,6 +1,7 @@
 package com.myself.service;
 
 import com.myself.dataobject.ProductInfo;
+import com.myself.dto.CartDTO;
 
 import java.util.List;
 
@@ -20,4 +21,10 @@ public interface ProductService {
      * @return
      */
     List<ProductInfo> findList(List<String> productIdList);
+
+    /**
+     * 扣库存
+     * @param cartDTOList
+     */
+    void decreaseStock(List<CartDTO> cartDTOList);
 }
