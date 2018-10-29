@@ -8,9 +8,22 @@ spring:
           uri: https://github.com/UncleCatMySelf/config-repo
           username: yourName
           password: yourPassword
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 192.168.192.131
+    port: 5672
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
 server:
   port: 9084
+management:
+  cloudfoundry:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
